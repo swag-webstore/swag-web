@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta name="viewport" content="user-scalable=no" />
+	<title>Sample Site | 服かってね</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.swag-clothing.net/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="Sample Site &raquo; フィード" href="http://www.swag-clothing.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sample Site &raquo; コメントフィード" href="http://www.swag-clothing.net/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-53462842-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel='stylesheet' id='contact-form-7-css'  href='http://www.swag-clothing.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='http://www.swag-clothing.net/wp-content/plugins/siteorigin-panels/css/front.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vantage-style-css'  href='http://www.swag-clothing.net/wp-content/themes/vantage/style.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vantage-fontawesome-css'  href='http://www.swag-clothing.net/wp-content/themes/vantage/fontawesome/css/font-awesome.css?ver=3.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/themes/vantage/js/jquery.flexslider.min.js?ver=2.1'></script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/themes/vantage/js/jquery.fitvids.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/themes/vantage/js/jquery.theme-main.min.js?ver=1.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.swag-clothing.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.swag-clothing.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='RECRUIT' href='http://www.swag-clothing.net/recruit/' />
+<link rel='next' title='CONTACT' href='http://www.swag-clothing.net/company/contact/' />
+<meta name="generator" content="WordPress 3.9.2" />
+<link rel='shortlink' href='http://www.swag-clothing.net/' />
+	<!--[if lt IE 9]>
+		<script src="http://www.swag-clothing.net/wp-content/themes/vantage/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="http://www.swag-clothing.net/wp-content/themes/vantage/js/selectivizr.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- All in One SEO Pack 2.2.2 by Michael Torbert of Semper Fi Web Design[181,207] -->
+<link rel="canonical" href="http://www.swag-clothing.net/" />
+<!-- /all in one seo pack -->
+<!-- BEGIN: WP Social Bookmarking Light -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>   
+<style type="text/css">
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 10px 0 20px 0 !important;
+    margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    min-height: 30px !important;
+    line-height: 18px !important;
+    text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+#fb-root{
+    display: none;
+}
+.wsbl_twitter{
+    width: 100px;
+}
+.wsbl_facebook_like iframe{
+    max-width: none !important;
+}</style>
+<!-- END: WP Social Bookmarking Light -->
+	<style type="text/css" media="screen">
+		#footer-widgets .widget { width: 100%; }
+		@media screen and (max-width: 640px) {
+			#footer-widgets .widget { width: auto; float: none; }
+		}
+	</style>
+	<style type="text/css" media="all">.panel-grid-cell .panel { margin-bottom: 35px } .panel-grid-cell .panel:last-child { margin-bottom: 0 !important } .panel-grid { margin: 0 -15px 0 -15px } .panel-grid-cell { padding: 0 15px 0 15px } @media (max-width:780px) { #pg-49-0 .panel-grid-cell { float:none } #pg-49-0 .panel-grid-cell { width:auto } .panel-grid { margin-left: 0 !important; margin-right: 0 !important; } .panel-grid-cell { padding: 0 !important; }  } .panel-grid-cell .panel { margin-bottom: 35px } .panel-grid-cell .panel:last-child { margin-bottom: 0 !important } .panel-grid { margin: 0 -15px 0 -15px } .panel-grid-cell { padding: 0 15px 0 15px } @media (max-width:780px) { #pg-home-0 .panel-grid-cell { float:none } #pg-home-0 .panel-grid-cell { width:auto } .panel-grid { margin-left: 0 !important; margin-right: 0 !important; } .panel-grid-cell { padding: 0 !important; }  } </style>	<script type='text/javascript' src='http://ajax.microsoft.com/ajax/jquery/jquery-1.7.min.js'></script>
+	<link rel="stylesheet" href="http://www.swag-clothing.net/wp-content/themes/vantage/css/jquery.pageslide.css">
+</head>
+
+<body class="home page page-id-49 page-template page-template-home-panels-php custom-background siteorigin-panels siteorigin-panels-home responsive layout-full no-js no-sidebar">
+
+
+<div id="page-wrapper">
+
+	
+	<header id="masthead" class="site-header" role="banner">
+
+	<nav role="navigation" class="site-navigation main-navigation primary use-sticky-menu">
+		<div class="full-container">
+		
+		<div class="menu-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-1-container"><ul id="menu-%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-1" class="menu"><li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-49 current_page_item menu-item-59"><a href="http://www.swag-clothing.net/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.swag-clothing.net']);">HOME</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://www.swag-clothing.net/news/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.swag-clothing.net']);">NEWS</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.swag-clothing.net/shop/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.swag-clothing.net']);">SHOP</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://www.swag-clothing.net/company/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.swag-clothing.net']);">COMPANY</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="http://www.swag-clothing.net/recruit/" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://www.swag-clothing.net']);">RECRUIT</a></li>
+</ul></div>	</div>
+	
+</nav><!-- .site-navigation .main-navigation -->
+
+</header><!-- #masthead .site-header -->
+
+	
+	<div id="main-slider" data-stretch="true"><!-- meta slider -->
+<div style="width: 100%; margin: 0 auto;" class="metaslider metaslider-flex metaslider-53 ml-slider">
+    
+    <div id="metaslider_container_53">
+        <div id="metaslider_53">
+            <ul class="slides">
+                <li style="display: inline-block; float: left; width: 100%;"><img src="http://www.swag-clothing.net/wp-content/uploads/2014/08/swaglogo01.jpg" height="850" width="1192" alt="" class="slider-53 slide-142" /></li>
+                <li style="display: none; float: left; width: 100%;"><img src="http://www.swag-clothing.net/wp-content/uploads/2014/08/swaglogo02.jpg" height="850" width="1192" alt="" class="slider-53 slide-143" /></li>
+                <li style="display: none; float: left; width: 100%;"><img src="http://www.swag-clothing.net/wp-content/uploads/2014/08/swaglogo03.jpg" height="850" width="1192" alt="" class="slider-53 slide-144" /></li>
+            </ul>
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        var metaslider_53 = function($) {
+            $('#metaslider_53').addClass('flexslider'); // theme/plugin conflict avoidance
+            $('#metaslider_53').flexslider({ 
+                slideshowSpeed:3000,
+                animation:"fade",
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"&lt;",
+                nextText:"&gt;",
+                slideshow:true
+            });
+        };
+        var timer_metaslider_53 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_53, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_53, 1) : metaslider_53(window.jQuery);
+        };
+        timer_metaslider_53();
+    </script>
+</div>
+<!--// meta slider--></div>
+	
+	<div id="main" class="site-main">
+		<div class="full-container">
+			
+<div id="primary" class="content-area">
+	<div id="content" class="site-content" role="main">
+		<div class="entry-content">
+			<div class="panel-grid" id="pg-49-0" ><div class="panel-grid-cell" id="pgc-49-0-0" >		<div class="panel widget widget_recent-posts panel-first-child panel-last-child" id="panel-49-0-0-0">		<h3 class="widget-title">NEWS</h3>		<ul>
+					<li>
+				<a href="http://www.swag-clothing.net/2014/08/03/%e3%81%bb%e3%81%b2%e3%81%bb%e3%81%b2%e3%83%bc%ef%bc%81/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.swag-clothing.net']);">新商品入荷しました！</a>
+							<span class="post-date">2014年8月3日</span>
+						</li>
+					<li>
+				<a href="http://www.swag-clothing.net/2014/08/03/%e3%81%a6%e3%81%99%e3%81%a8%e3%81%a0%e3%81%8a%ef%bc%81/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.swag-clothing.net']);">東京進出しました！</a>
+							<span class="post-date">2014年8月3日</span>
+						</li>
+				</ul>
+		</div></div></div><div class='wp_social_bookmarking_light'><div class="wsbl_facebook_like"><div id="fb-root"></div><fb:like href="http://www.swag-clothing.net/" layout="button_count" action="like" width="100" share="false" show_faces="false" ></fb:like></div><div class="wsbl_twitter"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.swag-clothing.net%2F&amp;text=HOME&amp;lang=en&amp;count=horizontal" style="width:130px; height:20px;"></iframe></div><div class="wsbl_google"><a href="http://www.google.com/bookmarks/mark?op=add&bkmk=http%3A%2F%2Fwww.swag-clothing.net%2F&title=HOME" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.google.com']);" title='Bookmark this on Google Bookmarks' rel=nofollow class='wp_social_bookmarking_light_a' target=_blank><img src='http://www.swag-clothing.net/wp-content/plugins/wp-social-bookmarking-light/images/google.png' alt='Bookmark this on Google Bookmarks' title='Bookmark this on Google Bookmarks' width='16' height='16' class='wp_social_bookmarking_light_img' /></a></div></div><br class='wp_social_bookmarking_light_clear' />		</div>
+	</div><!-- #content .site-content -->
+</div><!-- #primary .content-area -->
+
+					</div><!-- .full-container -->
+	</div><!-- #main .site-main -->
+
+	
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+	<div id="footer-widgets" class="full-container">
+			</div><!-- #footer-widgets -->
+
+			<div id="site-info">
+			swag.Co.Ltd		</div><!-- #site-info -->
+		
+		<div id="theme-attribution">Copyright 2014 swag.Co.Ltd. All Rights Reserved.</div>
+</footer><!-- #colophon .site-footer -->
+	
+</div><!-- #page-wrapper -->
+
+
+<a href="#" id="scroll-to-top"></a><!-- BEGIN: WP Social Bookmarking Light -->
+<!-- END: WP Social Bookmarking Light -->
+<link rel='stylesheet' id='metaslider-flex-slider-css'  href='http://www.swag-clothing.net/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=2.10' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-public-css'  href='http://www.swag-clothing.net/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=2.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.swag-clothing.net\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u9001\u4fe1\u4e2d ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.swag-clothing.net/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=2.10'></script>
+
+<!-- for mobile menu -->
+<!-- for mobile menu end -->
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching using disk
+Object Caching 890/970 objects using disk
+
+ Served from: www.swag-clothing.net @ 2014-08-09 22:29:16 by W3 Total Cache -->
