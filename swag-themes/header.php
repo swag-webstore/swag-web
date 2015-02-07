@@ -34,7 +34,7 @@
     <![endif]-->
 
     
-    <?php wp_head(); ?>
+    <?php //wp_head(); ?>
 </head>
 
 <body>
