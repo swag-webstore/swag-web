@@ -1,40 +1,36 @@
-<!doctype html>
-<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
-<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
-<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
+    <title><?php wp_title( '|', true, 'right' ); bloginfo('name'); ?></title>
     <meta charset="UTF-8">
-    <title>Oleose App Landing Page | Bootstrap Theme</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/freeze.css" media="screen">
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/placeholdem.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>">
-    <!-- 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
-
-    <link rel="stylesheet" href="css/freeze.css">
-
-
-    <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
-    -->
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    
-    <?php //wp_head(); ?>
+    <?php wp_head(); ?>
 </head>
 
 <body>
+
+<div class="header">
+    <h1 id="logo">
+        <a href="<?php echo home_url('/'); ?>"><span><?php bloginfo('name'); ?></span></a>
+    </h1>
+    <p id="description"><?php bloginfo('description'); ?></p>
+
+    <!-- Navigation -->
+    <?php wp_nav_menu( array ( 'theme_location' => 'header-navi' ) ); ?>
+    <!-- /Navigation -->
+<div><!-- /header -->
