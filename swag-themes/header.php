@@ -6,31 +6,56 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" media="screen">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/slick.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/freeze.css" media="screen">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fullPage/examples.css" media="screen">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fullPage/jquery.fullPage.css" media="screen">
+
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/placeholdem.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/waypoints.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fullPage/jquery.fullPage.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fullPage/jquery.fullPage.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fullPage/examples.js"></script>
 
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+                sectionsColor: ['#000000', '#1BBC9B', '#7E8F7C'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+                responsive: 900
+        });
+    });
+    </script>
+<!--
+<style>
+#header, #footer{
+    position:fixed;
+    height: 50px;
+    display:block;
+    width: 100%;
+    background: #333;
+    z-index:9;
+    text-align:center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+#header{
+    top:0px;
+}
+#footer{
+    bottom:0px;
+}
+    </style>
+
+-->
     <?php wp_head(); ?>
 </head>
 
 <body>
-
-<div class="header">
-    <h1 id="logo">
-        <a href="<?php echo home_url('/'); ?>"><span><?php bloginfo('name'); ?></span></a>
-    </h1>
-    <p id="description"><?php bloginfo('description'); ?></p>
-
-    <!-- Navigation -->
-    <?php wp_nav_menu( array ( 'theme_location' => 'header-navi' ) ); ?>
-    <!-- /Navigation -->
-<div><!-- /header -->
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First slide</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+</ul>
+<!-- /header -->
