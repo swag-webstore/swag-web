@@ -35,26 +35,36 @@
 　/　 　 | .|　　 　 　 　 　 | .|人(_(ﾆ､ﾉﾉ
 
 -->
+
 <div class="container">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
             <!-- setting toggle -->
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar" style="background-color:#876;"></span>
-              <span class="icon-bar" style="background-color:#876;"></span>
-              <span class="icon-bar" style="background-color:#876;"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
 
             <!-- ブランド名 ロゴ名の表示 -->
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a href="/"><img src="http://210.140.160.104/wp-content/uploads/2015/04/logo.png" class="navbar-brand" alt="Responsive image"></a>
         </div><!-- navbar-header -->
         <!-- メニュー -->
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
-                <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
-                <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" href="">SHOP LIST<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/shop/?location=kobe">KOBE</a></li>
+                    <li><a href="/shop/?location=nagoya">NAGOYA</a></li>
+                    <li><a href="/shop/?location=yokohama">YOKOHAMA</a></li>
+                    <li><a href="/shop/?location=fukuoka">FUKUOKA</a></li>
+                  </ul>
+                </li>
+                <li><a href="/news">NEWS</a></li>
+                <li><a href="/company">COMPANY</a></li>
+                <li><a href="<?php echo get_online_shop(); ?>">ONLINE STORE</a></li>
             </ul>
         </div> <!-- navbar-collapse -->
     </div><!-- navbar -->

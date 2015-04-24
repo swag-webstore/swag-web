@@ -253,7 +253,8 @@
 					$(this).find('.fp-tableCell').css('height', getTableHeight($(this)) + 'px');
 				}
 
-				$(this).css('height', windowsHeight + 'px');
+				//$(this).css('height', windowsHeight + 'px');
+				$(this).css('max-height', windowsHeight + 'px');
 
 				//resizing the scrolling divs
 				if(options.scrollOverflow){
@@ -346,7 +347,8 @@
 				$(this).addClass('active');
 			}
 
-			$(this).css('height', windowsHeight + 'px');
+			//$(this).css('height', windowsHeight + 'px');
+			$(this).css('max-height', windowsHeight + 'px');
 
 			if(options.paddingTop || options.paddingBottom){
 				$(this).css('padding', options.paddingTop  + ' 0 ' + options.paddingBottom + ' 0');
@@ -1477,7 +1479,8 @@
 		}
 
 		function addTableClass(element){
-			element.addClass('fp-table').wrapInner('<div class="fp-tableCell" style="height:' + getTableHeight(element) + 'px;" />');
+			element.addClass('fp-table').wrapInner('<div class="fp-tableCell" style="max-height:' + getTableHeight(element) + 'px;" />');
+			// element.addClass('fp-table').wrapInner('<div class="fp-tableCell" style="height:' + getTableHeight(element) + 'px;" />');
 		}
 
 		function getTableHeight(element){

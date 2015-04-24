@@ -1,10 +1,10 @@
 <div id="hidden-footer" class="hidden-footer">
-    <div class="container">
-        <div><a href="http://www.yahoo.co.jp">オンラインストア</a></div>
-    </div>
+    <a href="<?php echo get_online_shop(); ?>"></a>
+    <h4 class="text-center">SWAG公式OnlineShopはこちら</h4>
 </div>
+
 <div class="footer">
-    <div class="container">
+    <div class="container text-center">
         <p id="copyright" class="wrapper">&copy; <?php bloginfo('name'); ?>All Rights Reserved.</p>
     </div>
 </div>

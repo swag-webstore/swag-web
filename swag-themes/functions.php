@@ -6,6 +6,8 @@ register_nav_menu( 'header-navi', 'ヘッダーのナビゲーション' );
 
 add_image_size( 'large-smartphone', 520);
 
+// 下のマージン消す
+add_theme_support( 'siteorigin-panels', array( 'margin-bottom' => 0, 'responsive' => true, ) );
 
 // mobile, tablet判定
 function is_mobile() {
@@ -26,4 +28,13 @@ function is_mobile() {
     );
     $pattern = '/'.implode('|', $useragents).'/i';
     return preg_match($pattern, $_SERVER['HTTP_USER_AGENT']);
+}
+
+// オンラインショップのURL取得（まじかよ)
+function get_online_shop() {
+    $url = 'http://www.swag-333.com/';
+    if (is_mobile()) {
+        $url .= 'smp/';
+    }
+    return $url;
 }
