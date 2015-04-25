@@ -21,11 +21,9 @@ $(document).ready(function() {
     });
 });
 
-// footer setting
-$(function(){
-    $(window).on("scroll touchmove", function(){
-        $("#hidden-footer").stop();
-        $("#hidden-footer").css('display', 'none').delay(500).fadeIn('slow');
-    });
+// close nav
+$(document).on('click touchend', function(event) {
+    if (!$.contains($(".navbar-collapse")[0], event.target)) {
+        $(".navbar-collapse.in").collapse('hide');
+    }
 });
-

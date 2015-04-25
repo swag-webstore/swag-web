@@ -259,6 +259,11 @@ p{
 body {
     color: #dddddd;
     background-color: #000000;
+    font-family: serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: serif;
 }
 
 .panel {
@@ -276,8 +281,10 @@ body {
     border-color: #555;
 }
 
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #000000;
+    background-color: #010101;
     border-color: #555;
 }
 
@@ -315,6 +322,7 @@ span.icon-bar {
         display: none !important;
     }
 }
+/*
 .hidden-footer {
     background-color: #222222;
     display: block;
@@ -333,3 +341,4 @@ span.icon-bar {
     height: 100%;
     color: #CCCCCC;
 }
+*/
